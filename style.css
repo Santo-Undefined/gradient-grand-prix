@@ -1,0 +1,74 @@
+:root {
+  --nav-element-bg : white;
+  --nav-element-fg : black ;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.frame {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.navigation {
+  position: fixed;
+  display: flex;
+  width: 400px;
+  height: 100%;
+  /* border: 5px solid black; */
+  /* background-color: antiquewhite; */
+}
+
+.navigation nav {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-box {
+  display: flex;
+  flex-direction: column;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  border: 7px solid black;
+  border-radius: 15px;
+  width: 95%;
+  height: 95%;
+}
+
+.nav-element {
+  margin: 10px;  
+  border: 7px solid black;
+  border-radius: 15px;
+  height: auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+.nav-header {
+  position: sticky;
+  top: 0;
+  color: var(--nav-element-bg);
+  background-color: var(--nav-element-fg);
+}
+
+/* .nav-header:hover {
+  color: var(--nav-element-fg);
+  background-color: var(--nav-element-bg);
+} */
+
+.nav-brands {
+  color: var(--nav-element-fg);
+  background-color: var(--nav-element-bg);
+}
+
+.nav-brands:hover {
+  color: var(--nav-element-bg);
+  background-color: var(--nav-element-fg);
+}
