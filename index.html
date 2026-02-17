@@ -8,32 +8,42 @@
     <link rel="stylesheet" href="/gradients.css">
   </head>
   <body>
-    <div class="frame">
-      <div class="navigation">
-        <nav>
-          <div class="nav-box">
-            <div class="nav-element nav-header">
-              <p>SELECTIONS</p>
-            </div>
-            <div class="nav-element nav-brands">
-              <a href="#color1">1</a>
-            </div>
-            <div class="nav-element nav-brands">
-              <p>2</p>
-            </div>
+    <div class="nav-container" style="position: fixed;">
+      <div id="nav-box">
+            <h1>SELECTIONS</h1>
+          <div id="nav-option-box">
+            <nav>
+              <ul>
+                <a href="#color1"><li>gradient 1</li></a>
+                <a href="#color2"><li>gradient 2</li></a>
+              </ul>
+            </nav>
           </div>
-        </nav>
-      </div>
+        </div>
+    </div>
+    <div id="frame">
+      <!-- <div id="nav-container">
+        <div id="nav-box">
+            <h1>SELECTIONS</h1>
+          <div id="nav-option-box">
+            <nav>
+              <ul>
+                <a href="#color1"><li>gradient 1</li></a>
+                <a href="#color2"><li>gradient 2</li></a>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div> -->
 
-      <div class="content-container">
+      <div id="content-container">
         <div class="title-box">
           <div style="align-items: center; align-content: center;">
             <h1>Gradient grand prix</h1>
           </div>
         </div>
-        <div class="canvas">
-          <div class="color-frame" id="color1"></div>
-        </div>
+        <div class="canvas" id="color1"></div>
+        <!-- <div class="canvas" id="color2"></div> -->
       </div>
 
 
