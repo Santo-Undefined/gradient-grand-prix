@@ -60,7 +60,9 @@
   background-color: var(--fg-color);
 }
 
-.nav-brands {
+.nav-brands,
+.nav-brands a {
+  text-decoration: none;
   color: var(--fg-color);
   background-color: var(--bg-color);
 }
@@ -68,6 +70,7 @@
 .nav-brands:hover {
   color: var(--bg-color);
   background-color: var(--fg-color);
+  /* background: var(--color1); */
 }
 
 .content-container {

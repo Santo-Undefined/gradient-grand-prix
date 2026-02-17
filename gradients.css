@@ -1,3 +1,6 @@
+:root {
+  --color1: linear-gradient(blue, pink);
+}
 #color1 {
-  background: linear-gradient(blue, pink);
+  background:var(--color1);
 }
