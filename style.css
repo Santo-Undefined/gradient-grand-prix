@@ -12,88 +12,18 @@
 * {
   padding: 0;
   margin: 0;
-}
-
-#frame {
-  position: fixed;
-  display: flex;
-  height: 100vh;
-  width: 100vw;
-}
-
-#nav-container {
-  position: static;
-  height: 100vh;
-  display: flex;
-  width: 20%;
-  height: auto;
-  background-color: rgb(253, 253, 253);
-}
-
-#content-container {
-  position: static;
-  display: flex;
-  overflow: hidden;
-  flex-direction: column;
-  width: 80%;
-  height: auto;
-  background-color: rgb(155, 237, 237);
-}
-
-#nav-box {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: auto;
-  margin: var(--container-margin);
-  border-radius: var(--border-rounding);
-  justify-content: center;
-  background-color: rgb(0, 0, 0);
-}
-
-#nav-box h1 {
-  margin: var(--content-margin);
-  text-decoration: none;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  background-color: inherit;
-}
-
-#nav-box nav {
-  background-color: rgb(226, 226, 226);
-  font-size: var(--content-font-size);
-  border: 3px solid black;
-}
-
-#nav-option-box {
-  flex-grow: 1;
-  margin: var(--container-margin);
-  border: var(--container-margin) solid white;
-  /* border-radius: var(--border-rounding); */
-}
-
-#nav-option-box li {
-  text-align: center;
-  border: 3px solid black;
-  margin: 5px;
-  list-style-type: none;
-}
-
-.title-box {
-  display: flex;
-  width: 100%;
-  height: 60px;
-  border: var(--border-margin) solid var(--border-color);
-  border-radius: var(--rounding);
-  justify-content: center;
-  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .canvas {
-  margin: 5px;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  /* border: var(--border-margin) solid var(--border-color); */
-  /* border-radius: var(--rounding); */
+  margin-left: 20vw;
+  width: 80vw;
+  height: 100vh;
+}
+
+#nav-box {
+  position: fixed; 
+  width: 20vw; 
+  height: 100vh; 
+  background-color: rgb(255, 255, 255);
 }
